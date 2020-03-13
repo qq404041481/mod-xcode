@@ -42,3 +42,5 @@ def addFileToHeader():
     pass
 
 test = GroupStruct(project)
+
+# print(test.Dict)
