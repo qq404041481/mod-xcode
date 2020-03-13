@@ -1,7 +1,20 @@
-import sys
-sys.path.append('./mod_pbxproj')
-
 from pbxproj import XcodeProject
+from pbxproj.pbxextensions import *
+
+
+'''
+Useful methods:
+project.get_file_by_id
+project.get_files_by_name
+project.get_files_by_path
+
+project.get_groups_by_name
+project.get_groups_by_path
+
+project.get_object(id)
+
+object.get_id()
+'''
 
 config = {
 'xcodeproj': './cloud-search.xcodeproj'
@@ -20,9 +33,12 @@ class GroupStruct:
             for child in item.children:
                 self.Dict[child.upper()] = itemID
 
-
-    def iterateFiles(self, file, maxIter = 100):
-        curr = file
+    '''
+        input: file id
+        output: None if over maxIter, list of groups
+    '''
+    def iterateFiles(self, fileID, maxIter = 100):
+        curr = fileID
         list = []
         iter = 0
         while curr in self.Dict:
@@ -38,9 +54,24 @@ class GroupStruct:
     def constructPath(self):
         pass
 
-def addFileToHeader():
-    pass
+'''
+Add exisiting file to header.
+1. Find the file ID in PBXFileReference. 
+2. Add entry in PBXBuildFile (Check if exist) with correct settings (public/private/project)
+3. Find correct PBXHeadersBuildPhase section. Add PBXBuildFile to files
 
-test = GroupStruct(project)
+1. Find the exisiting file. with project.get_files_by_name
+2. 
+'''
+def addExistingFileToHeader(project, fileObj, targetName = None):
+    fileRef = fileObj # check for fileref
+    fileOptions = FileOptions(header_scope=HeaderScope.PUBLIC)
+    file_type, expected_build_phase = ProjectFiles._determine_file_type(fileRef, fileOptions.ignore_unknown_type)
+    buildFile = project._create_build_files(fileRef, targetName, expected_build_phase, fileOptions)
 
-# print(test.Dict)
+    return buildFile
+
+if __name__ == '__main__':
+    test = GroupStruct(project)
+    a = addExistingFileToHeader(project, project.get_files_by_name('AAPLAppDelegate.h')[0], 'CloudSearch')
+    print(a)

@@ -23,7 +23,7 @@
 		53D6CA391AD708FB00F05766 /* Text Document1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 53D6CA331AD708FA00F05766 /* Text Document1.txt */; };
 		53D6CA3A1AD708FB00F05766 /* Text Document2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 53D6CA341AD708FA00F05766 /* Text Document2.txt */; };
 		53D6CA3B1AD708FB00F05766 /* Text Document3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 53D6CA351AD708FA00F05766 /* Text Document3.txt */; };
-		99FB699A241B460A009597C7 /* AAPLAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 532909C01AE81CF300EFD5C2 /* AAPLAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99FB699F241B6401009597C7 /* AAPLFilterViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5393AB311AE816F6006612A4 /* AAPLFilterViewController.h */; settings = {ATTRIBUTES = (Private, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -154,7 +154,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99FB699A241B460A009597C7 /* AAPLAppDelegate.h in Headers */,
+				99FB699F241B6401009597C7 /* AAPLFilterViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,7 +196,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "could-search" */;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "cloud-search" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -358,7 +358,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "could-search" */ = {
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "cloud-search" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,
