@@ -62,16 +62,26 @@ Add exisiting file to header.
 
 1. Find the exisiting file. with project.get_files_by_name
 2. 
+
+project.get_build_files_for_file(file.get_id()) get the targets with the file
+input:
+    project: xcode file
+    fileObj: file object, get through get_files or get_file
+    headerScope: scope of headers (PROJECT/PRIVATE/PUBLIC)
+    targetName: which target to add to
+    force: True to override options (reduce to only one), false to allow add multiple instances.
 '''
-def addExistingFileToHeader(project, fileObj, targetName = None):
+def addExistingFileToHeader(project, fileObj, headerScope = HeaderScope.PUBLIC, targetName=None, force=True):
     fileRef = fileObj # check for fileref
-    fileOptions = FileOptions(header_scope=HeaderScope.PUBLIC)
+    fileOptions = FileOptions(header_scope=headerScope)
     file_type, expected_build_phase = ProjectFiles._determine_file_type(fileRef, fileOptions.ignore_unknown_type)
+    print(expected_build_phase)
     buildFile = project._create_build_files(fileRef, targetName, expected_build_phase, fileOptions)
 
     return buildFile
 
 if __name__ == '__main__':
     test = GroupStruct(project)
-    a = addExistingFileToHeader(project, project.get_files_by_name('AAPLAppDelegate.h')[0], 'CloudSearch')
+    a = addExistingFileToHeader(project, project.get_files_by_name('AAPLAppDelegate.h')[0], targetName = 'CloudSearch')
     print(a)
+    project.save()
