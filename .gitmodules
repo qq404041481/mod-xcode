@@ -1,0 +1,6 @@
+[submodule "mod-pbxproj"]
+	path = mod-pbxproj
+	url = https://github.com/kronenthaler/mod-pbxproj.git
+[submodule "mod_pbxproj"]
+	path = mod_pbxproj
+	url = https://github.com/kronenthaler/mod-pbxproj.git
