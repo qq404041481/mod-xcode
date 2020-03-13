@@ -1,0 +1,26 @@
+rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+
+  /* Begin PBXProject section */
+  29B97313FDCFA39411CA2CEA /* Project object */
+  targets = (1D6058900D05DD3D006BFB54 /* CloudSearch */ );
+
+    /* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* CloudSearch */
+    buildPhases = (
+			1D60588D0D05DD3D006BFB54 /* Resources */,
+			99FB6999241B4608009597C7 /* Headers */,
+			1D60588E0D05DD3D006BFB54 /* Sources */,
+			1D60588F0D05DD3D006BFB54 /* Frameworks */,
+		);
+
+      /* Begin PBXHeadersBuildPhase section */
+  		99FB6999241B4608009597C7 /* Headers */ = {
+      files = (
+				99FB699A241B460A009597C7 /* AAPLAppDelegate.h in Headers */,
+			);
+
+        /* Begin PBXBuildFile section */
+        99FB699A241B460A009597C7 /* AAPLAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 532909C01AE81CF300EFD5C2 /* AAPLAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+        
+          /* Begin PBXFileReference section */
+          532909C01AE81CF300EFD5C2 /* AAPLAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AAPLAppDelegate.h; path = CloudSearch/AAPLAppDelegate.h; sourceTree = "<group>"; };

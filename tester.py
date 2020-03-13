@@ -4,10 +4,10 @@ sys.path.append('./mod_pbxproj')
 from pbxproj import XcodeProject
 
 config = {
-'xcodeproj': './could-search.xcodeproj/cloud-search.pbxproj'
+'xcodeproj': './cloud-search.xcodeproj'
 }
 # open project
-project = XcodeProject.load(config['xcodeproj'])
+project = XcodeProject.load(config['xcodeproj'] + '/project.pbxproj')
 
 class GroupStruct:
     Dict = {} # if an object has parrent, then it's content is it's parent
@@ -25,7 +25,7 @@ class GroupStruct:
         curr = file
         list = []
         iter = 0
-        while curr in Dict:
+        while curr in self.Dict:
             parent = self.Dict[curr]
             list.append(parent)
             curr = parent
@@ -35,8 +35,8 @@ class GroupStruct:
 
         return list
 
-    def constructPath():
-
+    def constructPath(self):
+        pass
 
 def addFileToHeader():
     pass

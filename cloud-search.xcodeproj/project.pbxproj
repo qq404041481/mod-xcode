@@ -23,6 +23,7 @@
 		53D6CA391AD708FB00F05766 /* Text Document1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 53D6CA331AD708FA00F05766 /* Text Document1.txt */; };
 		53D6CA3A1AD708FB00F05766 /* Text Document2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 53D6CA341AD708FA00F05766 /* Text Document2.txt */; };
 		53D6CA3B1AD708FB00F05766 /* Text Document3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 53D6CA351AD708FA00F05766 /* Text Document3.txt */; };
+		99FB699A241B460A009597C7 /* AAPLAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 532909C01AE81CF300EFD5C2 /* AAPLAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -148,12 +149,24 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		99FB6999241B4608009597C7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99FB699A241B460A009597C7 /* AAPLAppDelegate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		1D6058900D05DD3D006BFB54 /* CloudSearch */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "CloudSearch" */;
 			buildPhases = (
 				1D60588D0D05DD3D006BFB54 /* Resources */,
+				99FB6999241B4608009597C7 /* Headers */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
 				1D60588F0D05DD3D006BFB54 /* Frameworks */,
 			);
