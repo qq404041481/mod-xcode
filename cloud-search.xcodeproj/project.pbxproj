@@ -24,6 +24,43 @@
 		53D6CA3A1AD708FB00F05766 /* Text Document2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 53D6CA341AD708FA00F05766 /* Text Document2.txt */; };
 		53D6CA3B1AD708FB00F05766 /* Text Document3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 53D6CA351AD708FA00F05766 /* Text Document3.txt */; };
 		99FB699F241B6401009597C7 /* AAPLFilterViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5393AB311AE816F6006612A4 /* AAPLFilterViewController.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		99FB69C3241B6BA8009597C7 /* AAPLAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 532909C01AE81CF300EFD5C2 /* AAPLAppDelegate.h */; settings = {ATTRIBUTES = ("", ); }; };
+		99FB69C6241B6D18009597C7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53D6CA2B1AD7060A00F05766 /* MainStoryboard.storyboard */; };
+		99FB69C7241B6D18009597C7 /* Text Document1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 53D6CA331AD708FA00F05766 /* Text Document1.txt */; };
+		99FB69C8241B6D18009597C7 /* HTML Document.html in Resources */ = {isa = PBXBuildFile; fileRef = 53D6CA301AD708FA00F05766 /* HTML Document.html */; };
+		99FB69C9241B6D18009597C7 /* PDF Document.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 53D6CA321AD708FA00F05766 /* PDF Document.pdf */; };
+		99FB69CA241B6D18009597C7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 536B4A931AEEB48F00ACE4AE /* Localizable.strings */; };
+		99FB69CB241B6D18009597C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53D6CA1E1AD7059500F05766 /* Images.xcassets */; };
+		99FB69CC241B6D18009597C7 /* Text Document2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 53D6CA341AD708FA00F05766 /* Text Document2.txt */; };
+		99FB69CD241B6D18009597C7 /* Image Document.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 53D6CA311AD708FA00F05766 /* Image Document.jpg */; };
+		99FB69CE241B6D18009597C7 /* Text Document3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 53D6CA351AD708FA00F05766 /* Text Document3.txt */; };
+		99FB69D0241B6D18009597C7 /* AAPLAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 532909C01AE81CF300EFD5C2 /* AAPLAppDelegate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		99FB69D1241B6D18009597C7 /* AAPLFilterViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5393AB311AE816F6006612A4 /* AAPLFilterViewController.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		99FB69D3241B6D18009597C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D6CA241AD705C300F05766 /* main.m */; };
+		99FB69D4241B6D18009597C7 /* AAPLFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5393AB321AE816F6006612A4 /* AAPLFilterViewController.m */; };
+		99FB69D5241B6D18009597C7 /* AAPLTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 532909C31AE81CF300EFD5C2 /* AAPLTableViewController.m */; };
+		99FB69D6241B6D18009597C7 /* AAPLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 532909C11AE81CF300EFD5C2 /* AAPLAppDelegate.m */; };
+		99FB69D7241B6D18009597C7 /* AAPLCloudDocumentsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 532909C71AE81D8500EFD5C2 /* AAPLCloudDocumentsController.m */; };
+		99FB69D9241B6D18009597C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		99FB69DA241B6D18009597C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		99FB69E1241C2B35009597C7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53D6CA2B1AD7060A00F05766 /* MainStoryboard.storyboard */; };
+		99FB69E2241C2B35009597C7 /* Text Document1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 53D6CA331AD708FA00F05766 /* Text Document1.txt */; };
+		99FB69E3241C2B35009597C7 /* HTML Document.html in Resources */ = {isa = PBXBuildFile; fileRef = 53D6CA301AD708FA00F05766 /* HTML Document.html */; };
+		99FB69E4241C2B35009597C7 /* PDF Document.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 53D6CA321AD708FA00F05766 /* PDF Document.pdf */; };
+		99FB69E5241C2B35009597C7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 536B4A931AEEB48F00ACE4AE /* Localizable.strings */; };
+		99FB69E6241C2B35009597C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53D6CA1E1AD7059500F05766 /* Images.xcassets */; };
+		99FB69E7241C2B35009597C7 /* Text Document2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 53D6CA341AD708FA00F05766 /* Text Document2.txt */; };
+		99FB69E8241C2B35009597C7 /* Image Document.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 53D6CA311AD708FA00F05766 /* Image Document.jpg */; };
+		99FB69E9241C2B35009597C7 /* Text Document3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 53D6CA351AD708FA00F05766 /* Text Document3.txt */; };
+		99FB69EB241C2B35009597C7 /* AAPLAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 532909C01AE81CF300EFD5C2 /* AAPLAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99FB69EC241C2B35009597C7 /* AAPLFilterViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5393AB311AE816F6006612A4 /* AAPLFilterViewController.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		99FB69EE241C2B35009597C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D6CA241AD705C300F05766 /* main.m */; };
+		99FB69EF241C2B35009597C7 /* AAPLFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5393AB321AE816F6006612A4 /* AAPLFilterViewController.m */; };
+		99FB69F0241C2B35009597C7 /* AAPLTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 532909C31AE81CF300EFD5C2 /* AAPLTableViewController.m */; };
+		99FB69F1241C2B35009597C7 /* AAPLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 532909C11AE81CF300EFD5C2 /* AAPLAppDelegate.m */; };
+		99FB69F2241C2B35009597C7 /* AAPLCloudDocumentsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 532909C71AE81D8500EFD5C2 /* AAPLCloudDocumentsController.m */; };
+		99FB69F4241C2B35009597C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		99FB69F5241C2B35009597C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +88,8 @@
 		53D6CA331AD708FA00F05766 /* Text Document1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Text Document1.txt"; sourceTree = "<group>"; };
 		53D6CA341AD708FA00F05766 /* Text Document2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Text Document2.txt"; sourceTree = "<group>"; };
 		53D6CA351AD708FA00F05766 /* Text Document3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Text Document3.txt"; sourceTree = "<group>"; };
+		99FB69DE241B6D18009597C7 /* CloudSearch1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudSearch1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99FB69F9241C2B35009597C7 /* Target2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Target2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +102,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		99FB69D8241B6D18009597C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99FB69D9241B6D18009597C7 /* Foundation.framework in Frameworks */,
+				99FB69DA241B6D18009597C7 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99FB69F3241C2B35009597C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99FB69F4241C2B35009597C7 /* Foundation.framework in Frameworks */,
+				99FB69F5241C2B35009597C7 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -70,6 +127,8 @@
 			isa = PBXGroup;
 			children = (
 				1D6058910D05DD3D006BFB54 /* CloudSearch.app */,
+				99FB69DE241B6D18009597C7 /* CloudSearch1.app */,
+				99FB69F9241C2B35009597C7 /* Target2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -154,7 +213,26 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99FB69C3241B6BA8009597C7 /* AAPLAppDelegate.h in Headers */,
 				99FB699F241B6401009597C7 /* AAPLFilterViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99FB69CF241B6D18009597C7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99FB69D0241B6D18009597C7 /* AAPLAppDelegate.h in Headers */,
+				99FB69D1241B6D18009597C7 /* AAPLFilterViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99FB69EA241C2B35009597C7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99FB69EB241C2B35009597C7 /* AAPLAppDelegate.h in Headers */,
+				99FB69EC241C2B35009597C7 /* AAPLFilterViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,6 +257,42 @@
 			productReference = 1D6058910D05DD3D006BFB54 /* CloudSearch.app */;
 			productType = "com.apple.product-type.application";
 		};
+		99FB69C4241B6D18009597C7 /* CloudSearch1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99FB69DB241B6D18009597C7 /* Build configuration list for PBXNativeTarget "CloudSearch1" */;
+			buildPhases = (
+				99FB69C5241B6D18009597C7 /* Resources */,
+				99FB69CF241B6D18009597C7 /* Headers */,
+				99FB69D2241B6D18009597C7 /* Sources */,
+				99FB69D8241B6D18009597C7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloudSearch1;
+			productName = IBTest;
+			productReference = 99FB69DE241B6D18009597C7 /* CloudSearch1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99FB69DF241C2B35009597C7 /* Target2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99FB69F6241C2B35009597C7 /* Build configuration list for PBXNativeTarget "Target2" */;
+			buildPhases = (
+				99FB69E0241C2B35009597C7 /* Resources */,
+				99FB69EA241C2B35009597C7 /* Headers */,
+				99FB69ED241C2B35009597C7 /* Sources */,
+				99FB69F3241C2B35009597C7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Target2;
+			productName = IBTest;
+			productReference = 99FB69F9241C2B35009597C7 /* Target2.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -196,7 +310,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "cloud-search" */;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "IBTest" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -213,6 +327,8 @@
 			projectRoot = "";
 			targets = (
 				1D6058900D05DD3D006BFB54 /* CloudSearch */,
+				99FB69C4241B6D18009597C7 /* CloudSearch1 */,
+				99FB69DF241C2B35009597C7 /* Target2 */,
 			);
 		};
 /* End PBXProject section */
@@ -234,6 +350,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		99FB69C5241B6D18009597C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99FB69C6241B6D18009597C7 /* MainStoryboard.storyboard in Resources */,
+				99FB69C7241B6D18009597C7 /* Text Document1.txt in Resources */,
+				99FB69C8241B6D18009597C7 /* HTML Document.html in Resources */,
+				99FB69C9241B6D18009597C7 /* PDF Document.pdf in Resources */,
+				99FB69CA241B6D18009597C7 /* Localizable.strings in Resources */,
+				99FB69CB241B6D18009597C7 /* Images.xcassets in Resources */,
+				99FB69CC241B6D18009597C7 /* Text Document2.txt in Resources */,
+				99FB69CD241B6D18009597C7 /* Image Document.jpg in Resources */,
+				99FB69CE241B6D18009597C7 /* Text Document3.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99FB69E0241C2B35009597C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99FB69E1241C2B35009597C7 /* MainStoryboard.storyboard in Resources */,
+				99FB69E2241C2B35009597C7 /* Text Document1.txt in Resources */,
+				99FB69E3241C2B35009597C7 /* HTML Document.html in Resources */,
+				99FB69E4241C2B35009597C7 /* PDF Document.pdf in Resources */,
+				99FB69E5241C2B35009597C7 /* Localizable.strings in Resources */,
+				99FB69E6241C2B35009597C7 /* Images.xcassets in Resources */,
+				99FB69E7241C2B35009597C7 /* Text Document2.txt in Resources */,
+				99FB69E8241C2B35009597C7 /* Image Document.jpg in Resources */,
+				99FB69E9241C2B35009597C7 /* Text Document3.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -246,6 +394,30 @@
 				532909C51AE81CF300EFD5C2 /* AAPLTableViewController.m in Sources */,
 				532909C41AE81CF300EFD5C2 /* AAPLAppDelegate.m in Sources */,
 				532909C81AE81D8500EFD5C2 /* AAPLCloudDocumentsController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99FB69D2241B6D18009597C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99FB69D3241B6D18009597C7 /* main.m in Sources */,
+				99FB69D4241B6D18009597C7 /* AAPLFilterViewController.m in Sources */,
+				99FB69D5241B6D18009597C7 /* AAPLTableViewController.m in Sources */,
+				99FB69D6241B6D18009597C7 /* AAPLAppDelegate.m in Sources */,
+				99FB69D7241B6D18009597C7 /* AAPLCloudDocumentsController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99FB69ED241C2B35009597C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99FB69EE241C2B35009597C7 /* main.m in Sources */,
+				99FB69EF241C2B35009597C7 /* AAPLFilterViewController.m in Sources */,
+				99FB69F0241C2B35009597C7 /* AAPLTableViewController.m in Sources */,
+				99FB69F1241C2B35009597C7 /* AAPLAppDelegate.m in Sources */,
+				99FB69F2241C2B35009597C7 /* AAPLCloudDocumentsController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +485,90 @@
 			};
 			name = Release;
 		};
+		99FB69DC241B6D18009597C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = CloudSearch/CloudSearch.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CloudSearch/Prefix.pch;
+				INFOPLIST_FILE = "CloudSearch copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		99FB69DD241B6D18009597C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = CloudSearch/CloudSearch.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CloudSearch/Prefix.pch;
+				INFOPLIST_FILE = "CloudSearch copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		99FB69F7241C2B35009597C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = CloudSearch/CloudSearch.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CloudSearch/Prefix.pch;
+				INFOPLIST_FILE = "CloudSearch1 copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		99FB69F8241C2B35009597C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = CloudSearch/CloudSearch.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CloudSearch/Prefix.pch;
+				INFOPLIST_FILE = "CloudSearch1 copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -358,7 +614,25 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "cloud-search" */ = {
+		99FB69DB241B6D18009597C7 /* Build configuration list for PBXNativeTarget "CloudSearch1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99FB69DC241B6D18009597C7 /* Debug */,
+				99FB69DD241B6D18009597C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99FB69F6241C2B35009597C7 /* Build configuration list for PBXNativeTarget "Target2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99FB69F7241C2B35009597C7 /* Debug */,
+				99FB69F8241C2B35009597C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "IBTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,
